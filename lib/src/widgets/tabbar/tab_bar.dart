@@ -1,3 +1,5 @@
+import 'package:crud_components/src/widgets/filter/custom_filter.dart';
+import 'package:crud_components/src/widgets/form/custom_form.dart';
 import 'package:crud_components/src/widgets/listview/list_view.dart';
 import 'package:flutter/material.dart';
 
@@ -76,11 +78,11 @@ class TabBarWidgetData extends State<TabBarWidget>
               controller: _tabControllerList,
               children: const [
                 Card(
-                  child: Text('data'),
+                  child: HeaderListagem(),
                 ),
                 Center(
                   child: Card(
-                    child: Text('data'),
+                    child: CustomFormWidget(),
                   ),
                 )
               ],

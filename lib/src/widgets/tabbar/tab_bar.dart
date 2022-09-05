@@ -1,3 +1,4 @@
+import 'package:crud_components/src/widgets/listview/list_view.dart';
 import 'package:flutter/material.dart';
 
 class TabBarWidget extends StatefulWidget {
@@ -90,7 +91,7 @@ class TabBarWidgetData extends State<TabBarWidget>
           Expanded(
             child: TabBarView(
               controller: _tabControllerList,
-              children: const [Center()],
+              children: const [ListViewWidget(), Center()],
             ),
           ),
         ],

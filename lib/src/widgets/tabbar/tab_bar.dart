@@ -78,7 +78,7 @@ class TabBarWidgetData extends State<TabBarWidget>
               controller: _tabControllerList,
               children: const [
                 Card(
-                  child: HeaderListagem(),
+                  child: CustomFilterWidget(),
                 ),
                 Center(
                   child: Card(

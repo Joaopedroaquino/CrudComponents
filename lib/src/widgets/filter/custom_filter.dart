@@ -1,14 +1,14 @@
 import 'package:crud_components/src/widgets/dropdown/drop_down.dart';
 import 'package:flutter/material.dart';
 
-class HeaderListagem extends StatefulWidget {
-  const HeaderListagem({super.key});
+class CustomFilterWidget extends StatefulWidget {
+  const CustomFilterWidget({super.key});
 
   @override
-  State<HeaderListagem> createState() => _HeaderListagemState();
+  State<CustomFilterWidget> createState() => _CustomFilterWidgetState();
 }
 
-class _HeaderListagemState extends State<HeaderListagem> {
+class _CustomFilterWidgetState extends State<CustomFilterWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -17,7 +17,6 @@ class _HeaderListagemState extends State<HeaderListagem> {
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 0, horizontal: 30),
         child: Column(
-          //crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
